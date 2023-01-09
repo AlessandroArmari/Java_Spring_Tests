@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 //HERE I TYPE MY TESTS!!!
 
 @SpringBootTest
-class JavaspringtestApplicationTests {
+class Test_JavaspringtestApplicationTests {
 
 	@BeforeAll // BEFORE AND AFTER AREN'T TESTS!
 	// the're instruction to be run before @Tests
@@ -40,7 +40,8 @@ class JavaspringtestApplicationTests {
 	}
 
 	@AfterEach
-	void setupAfterEach(){
-		System.out.println("@AfterEach - rune after each tests!"); 
+	void setupAfterEach() {
+		System.out.println("@AfterEach - rune after each tests!");
 
+	}
 }
